@@ -36,13 +36,13 @@ chat and files - goes straight between the two devices, encrypted. The address s
 once per call how your network can be reached, and are told nothing else.
 
 ```mermaid
-flowchart LR
-    A["Your device"] <-->|"Call: video, voice, chat, files<br/>direct and encrypted"| B["Their device"]
-    A -. "Invitation" .-> M(["WhatsApp, email or QR code"])
-    M -. "Reply" .-> A
-    M <-. "Invitation and reply" .-> B
-    A -. "Once per call:<br/>what is my address?" .-> S[("Address servers<br/>(STUN)")]
-    B -. "Once per call" .-> S
+flowchart TB
+    M(["WhatsApp, email or QR code<br/>carries only the invitation and the reply"])
+    A["Your device"] <==>|"The call: video, voice, chat, files<br/>direct and encrypted"| B["Their device"]
+    A <-. "invitation, reply" .-> M
+    M <-. "invitation, reply" .-> B
+    A -. "once per call" .-> S[("Address servers (STUN)<br/>asked only for your public address")]
+    B -. "once per call" .-> S
 ```
 
 With **LAN only** turned on in Settings, even the address servers are not asked, and only a device on
