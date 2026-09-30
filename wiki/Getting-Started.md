@@ -8,6 +8,46 @@ they receive your invitation and during the call. Change it any time here or in 
 An iPhone or iPad does not tell apps its own name, so on the first run the field is empty and the
 app asks you to type one before you can start or join a call.
 
+## How a call is set up
+
+One of you starts the call and sends an **invitation**; the other answers it with a **reply**. Both
+travel through whatever you already use to talk - WhatsApp, email, a QR code. Once the caller opens
+the reply, the call runs directly between your two devices.
+
+```mermaid
+sequenceDiagram
+    actor A as You (caller)
+    participant M as WhatsApp, email or QR code
+    actor B as The other person
+    A->>A: Start a call
+    A->>M: Share the invitation
+    M->>B: Invitation
+    B->>B: Open it - DirectCallMe makes a reply
+    B->>M: Share the reply
+    M->>A: Reply
+    A->>A: Open it (within about five minutes)
+    A-->>B: The call connects, device to device
+```
+
+## What travels where
+
+The messaging app only ever carries the invitation and the reply. The call itself - video, voice,
+chat and files - goes straight between the two devices, encrypted. The address servers are asked
+once per call how your network can be reached, and are told nothing else.
+
+```mermaid
+flowchart LR
+    A["Your device"] <-->|"Call: video, voice, chat, files<br/>direct and encrypted"| B["Their device"]
+    A -. "Invitation" .-> M(["WhatsApp, email or QR code"])
+    M -. "Reply" .-> A
+    M <-. "Invitation and reply" .-> B
+    A -. "Once per call:<br/>what is my address?" .-> S[("Address servers<br/>(STUN)")]
+    B -. "Once per call" .-> S
+```
+
+With **LAN only** turned on in Settings, even the address servers are not asked, and only a device on
+the same network can connect.
+
 ## Starting a call
 
 1. Tap **Start a call**. DirectCallMe prepares your **invitation** - this takes a moment while it
