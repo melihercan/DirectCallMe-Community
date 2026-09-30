@@ -15,6 +15,10 @@ Fixed or added, and not yet in a public release. They come with the next version
 
 ### Fixed
 
+- **The call's buttons after closing the chat.** Swiping the chat down could leave a strip across the
+  bottom of the call screen that covered Hang up, the microphone and the camera. A chat swiped down
+  now closes completely.
+
 - **iPad: the camera stopped when another app was on screen.** With DirectCallMe in Split View, Slide
   Over, Stage Manager or a window next to another app, the other person saw no video and your own
   picture was empty. The camera now keeps running.
