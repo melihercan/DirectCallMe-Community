@@ -20,6 +20,7 @@ It runs on Android, iPhone and iPad, Mac and Windows, and any of them can call a
   mean, and what to do when a call will not connect
 - **[Privacy](Privacy)** - what DirectCallMe keeps, and what it sends
 - **[FAQ](FAQ)** - group calls, purchases, and other common questions
+- **[Release notes](Release-Notes)** - what has changed, and what is coming in the next version
 
 ## Something wrong?
 
