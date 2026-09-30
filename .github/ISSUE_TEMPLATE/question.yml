@@ -1,0 +1,20 @@
+name: Question or suggestion
+description: How something works, or something you would like DirectCallMe to do.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The [FAQ](https://github.com/melihercan/DirectCallMe-Community/wiki/FAQ) may already have
+        the answer. Please do not paste an invitation or a reply here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or suggestion
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version (if it is about the app's behaviour)
+      description: From the app's Settings > About.

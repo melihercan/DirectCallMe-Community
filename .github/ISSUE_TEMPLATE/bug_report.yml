@@ -1,0 +1,61 @@
+name: Something does not work
+description: A call that will not connect, a screen that looks wrong, anything that goes wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Please **do not paste an invitation, a reply or anything
+        else from a call** here - they are private to the two of you.
+
+        Many connection problems have an answer in
+        [Networks and connection problems](https://github.com/melihercan/DirectCallMe-Community/wiki/Networks-and-Connection-Problems).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: From the app's Settings > About, for example "DirectCallMe 26.09.30 (26093018)".
+    validations:
+      required: true
+  - type: dropdown
+    id: this-device
+    attributes:
+      label: Your device
+      options: [Android phone or tablet, iPhone, iPad, Mac, Windows PC]
+    validations:
+      required: true
+  - type: dropdown
+    id: other-device
+    attributes:
+      label: The other person's device
+      description: If it happened during or while setting up a call.
+      options: [Not about a call, Android phone or tablet, iPhone, iPad, Mac, Windows PC]
+  - type: dropdown
+    id: networks
+    attributes:
+      label: Networks
+      description: This makes the most difference to whether a call connects.
+      options:
+        - Not about a call
+        - Both on Wi-Fi at the same place
+        - Both on Wi-Fi at different places
+        - One on Wi-Fi, one on mobile data
+        - Both on mobile data
+        - Not sure
+  - type: dropdown
+    id: invitation
+    attributes:
+      label: How the invitation travelled
+      options: [Not about a call, WhatsApp, Email, Another messaging app, QR code, Copy and paste]
+  - type: textarea
+    id: shown
+    attributes:
+      label: What the app said
+      description: Any message or status the app showed - the wording helps a lot. Screenshots are welcome (without an invitation or reply in them).
