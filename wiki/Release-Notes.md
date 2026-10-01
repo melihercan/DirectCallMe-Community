@@ -19,6 +19,10 @@ Fixed or added, and not yet in a public release. They come with the next version
 - **Calls on the same Wi-Fi, with no invitation.** While you are inviting, devices on your network
   see the call under **Join a call → Calls on this Wi-Fi**. They tap **Join**, you accept, and the
   call starts. You can switch it off for a call on the invitation screen.
+- **Invitations say what to do.** The shared file is named *Tap to join Anna's call* (a reply, *Tap
+  to connect to Bob*), and a copied message starts with the link to tap.
+- **When a reply has to go back by hand, the share sheet opens with it**, and it now stays valid for
+  about fifteen minutes instead of five.
 - **Documentation and help** in Settings, under About, opens this wiki.
 - **A back arrow** beside the Settings title, so the way back is at the top of the page rather than
   only the **Done** button at the bottom.

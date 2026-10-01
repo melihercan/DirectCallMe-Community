@@ -24,7 +24,7 @@ says so:
 1. **Put one side on Wi-Fi.** Two phones both on mobile data is the combination most likely to
    fail.
 2. **Start again with a fresh invitation.** An invitation is for one call, and a reply is valid for
-   about five minutes.
+   about fifteen minutes.
 3. **Open the reply on the device that made the invitation**, while it is still waiting on the
    invitation screen.
 4. **Check LAN only** is off in Settings on both devices, unless you are on the same network.

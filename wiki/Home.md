@@ -3,10 +3,13 @@
 **A private call, chat and file transfer between two people. No account, no server, nothing in
 between.**
 
-DirectCallMe connects your device straight to the other person's. To make a call, one of you sends
-an **invitation** and the other sends back a **reply** - by WhatsApp, email, any messaging app, or a
-QR code on the screen. Once both are exchanged, the call runs directly between the two devices.
-Nothing relays it and nothing records it.
+DirectCallMe connects your device straight to the other person's. To call someone, **send them a
+call link in any chat** - WhatsApp, email, any messaging app - or show it as a QR code. They tap it,
+and the call starts. Nothing relays it and nothing records it.
+
+On the same Wi-Fi you don't even need the link: the other person sees your call in their app and
+taps **Join**. And after a call whose code you have compared, the app remembers that person, so the
+next call is one tap.
 
 It runs on Android, iPhone and iPad, Mac and Windows, and any of them can call any other.
 

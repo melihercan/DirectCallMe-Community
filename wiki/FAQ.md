@@ -2,8 +2,8 @@
 
 ### Can more than two people join a call?
 
-No, and that is deliberate. An invitation holds the keys for one connection, and the first reply
-uses it up. Without a server, a group call would mean every device connecting to every other - three
+No, and that is deliberate. An invitation holds the keys for one connection, and the first person
+to answer it uses it up. Without a server, a group call would mean every device connecting to every other - three
 connections for three people, six for four - each carrying its own video, so the upload and battery
 use grow with every person. DirectCallMe is made for one-to-one calls and does them well.
 
@@ -25,11 +25,28 @@ asks the store again.
 A purchase stays in the store it was made in: one made on Google Play does not unlock DirectCallMe on
 an iPhone or on Windows.
 
-### Why does it need an invitation and a reply? Other apps just call.
+### Why do I send an invitation? Other apps just ring.
 
-Other apps call through their own servers, which know who you are and who you call. DirectCallMe has
-no server, so the two devices exchange what they need to find each other through a channel you
-already use. That exchange is the only setup.
+Other apps ring through their own servers - and through Apple's and Google's notification
+services - which know who you are and who you call. DirectCallMe has no server, so the **invitation
+is the ring**: a call link you send in any chat you already use. The other person taps it and the
+call starts.
+
+On the same Wi-Fi you don't need it: the call shows up in their app under **Calls on this Wi-Fi**.
+And for someone you have called before, **Call again** on the first screen makes the invitation and
+opens the share sheet in one tap.
+
+### Why does the other person sometimes have to send a reply back?
+
+Their answer normally comes back to your device by itself. Some mobile networks don't let anything
+reach a phone directly; then their app shows a reply and opens the share sheet with it, and the call
+starts when you tap it. It stays valid for about fifteen minutes.
+
+### Why doesn't DirectCallMe ring the other phone?
+
+Ringing a phone that is not running the app needs a push notification, which always goes through
+Apple's or Google's servers. DirectCallMe sends nothing through anyone's servers, so the person you
+call opens the app by tapping your invitation.
 
 ### Can I call someone who is not on the same kind of device?
 
@@ -37,8 +54,9 @@ Yes. Android, iPhone, iPad, Mac and Windows can all call each other.
 
 ### Is it safe to send an invitation over WhatsApp or email?
 
-Yes - it is meant to travel that way. It lets the other device find yours for one call, and a reply
-is only accepted by the call that is waiting for it. Don't post invitations publicly.
+Yes - it is meant to travel that way. It lets the other device find yours for one call, and only
+the first answer is accepted. Don't post invitations publicly. To be sure who you are talking to,
+compare the six-character code on the call.
 
 ### Does a call use a lot of data?
 
