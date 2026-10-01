@@ -42,6 +42,7 @@ call.
 
 ## Your own servers
 
-The STUN servers in Settings are only asked for your public address, once per call. Any STUN or TURN
-address works, and your own is best. A **TURN** server relays the call through itself when no direct
-path can be found - the one case where something is in between, and only one you chose.
+The STUN servers in Settings are only asked for your public address, while a call is being set up.
+Any STUN address works, and your own is best. DirectCallMe never relays a call through a server -
+not even one you run yourself - so if the two devices cannot reach each other directly, the call
+does not connect and the app tells you so.
