@@ -9,6 +9,13 @@ Fixed or added, and not yet in a public release. They come with the next version
 
 ### New
 
+- **The call starts when they open your invitation.** Their reply now comes back to your device by
+  itself wherever it can reach it - on the same Wi-Fi, and on many mobile networks - so there is
+  nothing for them to send back. Where it cannot, they see the reply to send you as before.
+- **Remember people, and call them again in one tap.** After comparing the code, tap **Codes
+  match**: the next call with that person is recognised as the same device, with no comparing.
+  They appear under **Call again** on the home screen; **Call** makes a new invitation and opens the
+  share sheet. If someone uses a remembered name from a different device, the call warns you.
 - **Documentation and help** in Settings, under About, opens this wiki.
 - **A back arrow** beside the Settings title, so the way back is at the top of the page rather than
   only the **Done** button at the bottom.
