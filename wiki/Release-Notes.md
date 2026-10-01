@@ -16,6 +16,9 @@ Fixed or added, and not yet in a public release. They come with the next version
   match**: the next call with that person is recognised as the same device, with no comparing.
   They appear under **Call again** on the home screen; **Call** makes a new invitation and opens the
   share sheet. If someone uses a remembered name from a different device, the call warns you.
+- **Calls on the same Wi-Fi, with no invitation.** While you are inviting, devices on your network
+  see the call under **Join a call → Calls on this Wi-Fi**. They tap **Join**, you accept, and the
+  call starts. You can switch it off for a call on the invitation screen.
 - **Documentation and help** in Settings, under About, opens this wiki.
 - **A back arrow** beside the Settings title, so the way back is at the top of the page rather than
   only the **Done** button at the bottom.

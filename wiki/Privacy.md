@@ -6,15 +6,19 @@ under **Settings > Privacy**:
 > No account, no server, no call log. Your name and these settings stay on this device, and so do
 > the people you chose to remember after comparing the code: a name and a device key each, nothing
 > else. The only things outside the two devices that ever see a packet are the STUN servers above,
-> asked for your public address while a call is being set up and told nothing else. Turn on
-> LAN-only and not even that is sent. Nothing about a call is written to disk; a file you receive
-> is kept only if you save it.
+> asked for your public address while a call is being set up and told nothing else - turn on
+> LAN-only and not even that is sent - and, while your invitation screen is open, devices on the
+> same Wi-Fi, which can see your name and ask to join. Nothing about a call is written to disk; a
+> file you receive is kept only if you save it.
 
 What that means in practice:
 
 - **No account, phone number or contacts.** You choose the name the other person sees.
 - **The call is end-to-end encrypted** with the standard WebRTC encryption (DTLS-SRTP). The six
   characters both screens show let you confirm that nobody is in between.
+- **Calls on the same Wi-Fi.** While your invitation screen is open, devices on the same network
+  can see your name and ask to join; they get in only if you accept. Nothing is announced at any
+  other time, and the switch on that screen turns it off for the call. Joining only listens.
 - **Remembering people is your choice.** Tap **Codes match** after comparing the code, and the app
   keeps that person's name and their device's public key, on your device only, so the next call
   with them is recognised without comparing again. If someone uses a remembered name from a
