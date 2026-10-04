@@ -42,6 +42,13 @@ Their answer normally comes back to your device by itself. Some mobile networks 
 reach a phone directly; then their app shows a reply and opens the share sheet with it, and the call
 starts when you tap it. It stays valid for about fifteen minutes.
 
+### It says "The invitation is damaged and cannot be read"
+
+Tap the link in the message instead of pasting it - that always works. If the link can't be tapped,
+copy only the line with the link (it starts with `directcallme://`) and paste that. Test versions
+before the fix in the [release notes](Release-Notes) sometimes failed to read a whole pasted message;
+an updated app reads it either way, so updating from your store fixes it for good.
+
 ### Why doesn't DirectCallMe ring the other phone?
 
 Ringing a phone that is not running the app needs a push notification, which always goes through

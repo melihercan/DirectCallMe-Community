@@ -29,6 +29,13 @@ Fixed or added, and not yet in a public release. They come with the next version
 
 ### Fixed
 
+- **"The invitation is damaged" when pasting a whole message.** Copying the entire invitation or
+  reply message and using **Paste invitation** or **Paste reply** - as the message itself suggests -
+  failed for about half of all invitations. The app now reads the code wherever the message ends.
+  Tapping the link was never affected.
+- **The other side's hang-up could take up to half a minute to show.** On a Mac in particular, the
+  call could stay on screen for 16 to 27 seconds after the other person had hung up. Hanging up now
+  tells the other device before the connection closes, so its call ends at once.
 - **The call's buttons after closing the chat.** Swiping the chat down could leave a strip across the
   bottom of the call screen that covered Hang up, the microphone and the camera. A chat swiped down
   now closes completely.
