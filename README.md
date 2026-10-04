@@ -4,8 +4,10 @@
 between.**
 
 DirectCallMe connects two devices directly. You send the other person an invitation - through any
-messaging app, email, or a QR code - they send a reply back, and the call runs straight between
-your two devices. There is no account to create, no phone number or contact list involved, and no
+messaging app, email, or a QR code - they tap it, and the call runs straight between your two
+devices. Their answer finds its way back to your device by itself; only on networks that let nothing
+reach a device directly do they send you a reply the same way. On the same Wi-Fi you don't need an
+invitation at all. There is no account to create, no phone number or contact list involved, and no
 server that relays or records your call.
 
 - **Video and voice**, with a six-character code you both read aloud to be sure nobody is in between
