@@ -21,6 +21,12 @@ Fixed or added, and not yet in a public release. They come with the next version
   call starts. You can switch it off for a call on the invitation screen.
 - **Invitations say what to do.** The shared file is named *Tap to join Anna's call* (a reply, *Tap
   to connect to Bob*), and a copied message starts with the link to tap.
+- **iPhone and iPad: the invitation shows who is calling.** Tapping an invitation in WhatsApp or
+  Files used to open a grey page with only the file's name and size. It now shows *Anna is calling
+  you* and how to join: tap the share button, then **DirectCallMe**.
+- **A message travels with the shared file** - *Anna is calling you on DirectCallMe. Tap the file to
+  join the call.* - in mail and the apps that show text sent with a file. WhatsApp on Android sends
+  the file alone.
 - **When a reply has to go back by hand, the share sheet opens with it**, and it now stays valid for
   about fifteen minutes instead of five.
 - **Documentation and help** in Settings, under About, opens this wiki.
