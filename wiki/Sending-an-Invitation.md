@@ -41,8 +41,8 @@ Do not choose **Always**: Android would then open *every* file of an unknown typ
 
 In **Mail**, tapping the attachment opens the share sheet; **DirectCallMe** is in the row of apps.
 
-In **WhatsApp** and **Files**, tapping the file opens a preview page: the DirectCallMe icon, who is
-calling ("Anna is calling you") and what to do. Tap the share button (the square with an arrow, at
+In **WhatsApp** and **Files**, tapping the file opens a preview page: the DirectCallMe icon, who it is
+from ("Call invitation from Anna") and what to do. Tap the share button (the square with an arrow, at
 the bottom), then **DirectCallMe**. iOS does not let a preview open an app by itself, so the share
 button is the way in.
 
