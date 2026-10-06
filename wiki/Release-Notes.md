@@ -35,6 +35,17 @@ Fixed or added, and not yet in a public release. They come with the next version
 
 ### Fixed
 
+- **Opening your own invitation answered it.** Tapping an invitation you had sent - still in the
+  chat you sent it to - made the app try to join your own call. It now says *This is your own
+  invitation* and leaves you where you were.
+- **"Camera and microphone are in use" after closing the app (Android).** A call that was still
+  being set up when the app was closed from the recent apps could keep its notification, and the
+  app running, for a long time afterwards. The camera and microphone were not in use, but the
+  notification said they were. Closing the app now ends the call, and a call that ends always
+  releases the camera and microphone.
+- **Invitations now expire after an hour.** An invitation opened more than an hour after it was
+  made says *This invitation has expired*, instead of being answered when nobody is waiting, and a
+  caller who has had no reply for an hour stops waiting. Start a new call to try again.
 - **"The invitation is damaged" when pasting a whole message.** Copying the entire invitation or
   reply message and using **Paste invitation** or **Paste reply** - as the message itself suggests -
   failed for about half of all invitations. The app now reads the code wherever the message ends.

@@ -49,6 +49,16 @@ copy only the line with the link (it starts with `directcallme://`) and paste th
 before the fix in the [release notes](Release-Notes) sometimes failed to read a whole pasted message;
 an updated app reads it either way, so updating from your store fixes it for good.
 
+### It says "This invitation has expired"
+
+An invitation can be answered for an hour after it was made. After that the person who sent it is
+no longer waiting, so the app does not try. Ask them to start a new call and send a new invitation.
+
+### It says "This is your own invitation"
+
+You opened an invitation you sent yourself - it is still in the chat you sent it to. It is for the
+other person to open; on your side the call starts when they do.
+
 ### Why doesn't DirectCallMe ring the other phone?
 
 Ringing a phone that is not running the app needs a push notification, which always goes through
